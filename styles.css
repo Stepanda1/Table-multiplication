@@ -1,0 +1,32 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000;
+    width: 300px;
+    margin: 200px auto;
+    padding: 5px 20px;
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.check {
+    background-color: rgb(70, 164, 223);
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.check:hover { 
+    background-color: rgb(1, 79, 143);
+}
+
+.template {
+    font-weight: bold;
+}
